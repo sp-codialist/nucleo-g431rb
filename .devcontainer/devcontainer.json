@@ -1,11 +1,11 @@
 {
 	"name": "kdocker-dev",
 	"image": "ghcr.io/kodezine/kdocker:v1.1.2",
-  "runArgs": [
-    "--privileged",
-    "-v",
+  	"runArgs": [
+		"--privileged",
+		"-v",
     "/dev/bus/usb:/dev/bus/usb"
-  ],
+  	],
 	"customizations": {
 		"vscode": {
 			"extensions": [
