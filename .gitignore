@@ -16,7 +16,10 @@ CMakeLists.txt.user
 *.cmake.user
 [Bb]uild
 
-# Build directories (common names)
+# Dot files
+*.dot
+*.dot.*
+ 
 # NOTE: "build/" handling is left to you. Uncomment any of the lines below to ignore that build folder pattern.
 # Uncomment to ignore top-level or pattern-based build directories created during out-of-source builds.
 # build/
